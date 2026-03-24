@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Hacker-Vibe Card Interaction */
+.interactive-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  background: rgba(0, 255, 136, 0.03);
+  border: 1px solid rgba(0, 255, 136, 0.1);
+}
+
+/* The 'Heavy' Hover Effect */
+.interactive-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  background: rgba(0, 255, 136, 0.08);
+  border-color: #00ff88;
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.3), 
+              inset 0 0 15px rgba(0, 255, 136, 0.1);
+}
+
+/* The Cyber Scan Beam */
+.interactive-card::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 45%,
+    rgba(0, 255, 136, 0.3) 50%,
+    transparent 55%
+  );
+  transition: all 0.6s;
+  pointer-events: none;
+}
+
+.interactive-card:hover::before {
+  top: 100%;
+  left: 100%;
+}
+
+/* Add a subtle glitch to the text on hover */
+.interactive-card:hover .card-header {
+  text-shadow: 2px 0 #00ccff, -2px 0 #ff00c1;
+  animation: glitch-text 0.3s infinite;
+}
+
+@keyframes glitch-text {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
