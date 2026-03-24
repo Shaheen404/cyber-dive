@@ -1,8 +1,6 @@
-Cyber-Dive // Wikipedia of CyberSec
+Cyber-Dive - Wikipedia of CyberSec
 An immersive, 3D interactive web application designed to visualize the landscape of modern cybersecurity. This project serves as both a technical demonstration of React and Three.js and an educational portal for offensive and defensive security concepts.
 
-Live Demo
-(Insert your Vercel URL here)
 
 Technical Stack
 Frontend: React.js 19
