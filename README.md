@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Cyber-Dive // Wikipedia of CyberSec
+An immersive, 3D interactive web application designed to visualize the landscape of modern cybersecurity. This project serves as both a technical demonstration of React and Three.js and an educational portal for offensive and defensive security concepts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo
+(Insert your Vercel URL here)
 
-## Available Scripts
+Technical Stack
+Frontend: React.js 19
+3D Graphics: Three.js / @react-three/fiber
+Animations: Framer Motion and GSAP
+Post-Processing: Bloom, Noise, and Scanline effects for a Hacker Terminal aesthetic
+Deployment: Vercel (CI/CD via GitHub)
 
-In the project directory, you can run:
+Key Features
+Interactive Hazards: A 3D Hazard Fan with real-time mouse parallax and physics-based wobble.
+Glassmorphism UI: Transparent, frosted-glass panels designed for high readability against dynamic backgrounds.
+Responsive Architecture: Mobile-friendly grid layouts for Cyber Domains, Threat Actors, and Team Structures.
+Cyber-Scan Effects: Custom CSS and Framer Motion interactions that mimic tactical data scanning on hover.
 
-### `npm start`
+About the Developer
+Developed by Muhammad Muzammil Shaheen, a Cybersecurity Analyst and Penetration Tester based in Rawalpindi, Pakistan.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Specializations:
+Web and Android VAPT (Vulnerability Assessment and Penetration Testing)
+Network Security and Reconnaissance
+Full-stack development (MERN and Laravel)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+How to Run Locally
+Clone the repo: git clone https://github.com/Shaheen404/cyber-dive.git
 
-### `npm test`
+Install dependencies: npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the dev server: npm start
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Build for production: npm run build
